@@ -3,6 +3,7 @@
   font-family: "montserrat";
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   background: #333;
@@ -127,6 +128,7 @@ header form{
   top: .5em;
   background-color: #232323;
   font-weight: 900;
+  scroll-behavior: smooth;
 }
 
 .cont2 p{
@@ -138,6 +140,13 @@ header form{
   color: #ff9234;
   font-family: 'Allura';
   margin-left: 3em;
+}
+#title{
+  text-decoration: none;
+}
+
+#title:hover, #title:focus{
+  text-decoration: none;
 }
 header img{
   height: 150px;
@@ -160,7 +169,8 @@ header img{
   outline: 4px solid yellow;
   outline-offset: -4em;
   background-attachment: fixed;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 .cont3 h1{
   color: yellow;
@@ -189,6 +199,7 @@ header img{
   position: relative;
   outline: 4px solid white;
   outline-offset: -3em;
+  scroll-behavior: smooth;
 }
 
 .cont4 h1{
@@ -303,5 +314,6 @@ header img{
   text-align: center;
   font-size: 1em;
   font-weight: 500;
+  background-color: honeydew
 }
 
